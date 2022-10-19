@@ -1,8 +1,13 @@
 import json
+import os
 import random
 import string
 from dataclasses import dataclass
+from datetime import datetime, timedelta
+from pathlib import Path
 from typing import List
+
+from icalendar import Calendar, Event
 
 from meals import meals_list
 
@@ -18,6 +23,7 @@ class Meal:
 
 CARB_LIMIT = 2  # max acceptable same carb in a week
 MEAT_LIMIT = 2  # max acceptable same meat in a week
+START_DT = datetime(2022, 10, 22, 19, 0, 0)  # The first meal to be planned
 
 
 def plan(meals: List[Meal], days: int):
@@ -50,8 +56,25 @@ def main():
 
     meals: List[Meal] = [Meal(**obj) for obj in meals_list]
 
-    for p in plan(meals, 10):
-        print(f"{p.name} ({p.meat}, {p.carb})")
+    cal = Calendar()
+    date = START_DT
+
+    for meal in plan(meals, 30):
+        print(f"{meal.name} ({meal.meat}, {meal.carb})")
+
+        event = Event()
+        event.add("summary", meal.name)
+        event.add("dtstart", date)
+        event.add("dtend", date + timedelta(hours=1))
+        cal.add_component(event)
+
+        date = date + timedelta(days=1)
+
+    directory = str(Path(__file__).parent) + "/"
+    print("ics file will be generated at ", directory)
+    f = open(os.path.join(directory, "mealplan.ics"), "wb")
+    f.write(cal.to_ical())
+    f.close()
 
 
 if __name__ == "__main__":

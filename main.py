@@ -23,7 +23,8 @@ class Meal:
 
 CARB_LIMIT = 2  # max acceptable same carb in a week
 MEAT_LIMIT = 2  # max acceptable same meat in a week
-START_DT = datetime(2022, 10, 22, 19, 0, 0)  # The first meal to be planned
+START_DT = datetime(2022, 11, 21, 19, 0, 0)  # The first meal to be planned
+N_MEALS = 365 # number of meals to plan
 
 
 def plan(meals: List[Meal], days: int):
@@ -59,7 +60,7 @@ def main():
     cal = Calendar()
     date = START_DT
 
-    for meal in plan(meals, 30):
+    for meal in plan(meals, N_MEALS):
         print(f"{meal.name} ({meal.meat}, {meal.carb})")
 
         event = Event()

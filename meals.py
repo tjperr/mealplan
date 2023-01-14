@@ -458,4 +458,22 @@ meals_list = [
         "cuisine": "",
         "complexity": 0,
     },
+    {
+        "name": "courgette pasta",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 20,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 0,
+    },
+    {
+        "name": "puttanesca",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 0,
+    },
 ]

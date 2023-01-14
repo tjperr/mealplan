@@ -449,4 +449,13 @@ meals_list = [
         "cuisine": "",
         "complexity": 0,
     },
+    {
+        "name": "courgette orzotto",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 20,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 0,
+    },
 ]

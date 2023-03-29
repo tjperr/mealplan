@@ -23,11 +23,11 @@ class Meal:
     complexity: int
 
 
-CARB_LIMIT = 2  # max acceptable same carb in a week
-MEAT_LIMIT = 2  # max acceptable same meat in a week
-COMPLEXITY_LIMIT = 14
-START_DT = datetime(2023, 1, 17, 19, 0, 0)  # The first meal to be planned
-N_MEALS = 3*30  # number of meals to plan
+CARB_LIMIT = 3  # max acceptable same carb in a week
+MEAT_LIMIT = 3  # max acceptable same meat in a week
+COMPLEXITY_LIMIT = 21
+START_DT = datetime(2023, 4, 17, 19, 0, 0)  # The first meal to be planned
+N_MEALS = 30  # number of meals to plan
 
 
 def plan(meals: List[Meal], days: int):
@@ -37,8 +37,6 @@ def plan(meals: List[Meal], days: int):
     plan = []
     while len(plan) < days:
 
-        print(len(plan) / days)
-
         # for m in plan[-7:]:
         #    print(m)
         # print("----------------")
@@ -47,22 +45,25 @@ def plan(meals: List[Meal], days: int):
 
         # print(candidate)
         # print("----------------")
+        print(sum([m.complexity for m in plan[-7:]]))
 
         if candidate in plan[-candidate.freq :]:  # Frequency limit
             # print("frequency limit")
             pass
         elif (
-            sum([m.carb == candidate.carb for m in plan[-7:]]) > CARB_LIMIT
+            sum([m.carb == candidate.carb for m in plan[-7:]]) + candidate.n_meals
+            > CARB_LIMIT
         ):  # consecutive carb limit
             # print('carb limit')
             pass
-        elif (
-            sum([m.meat == candidate.meat for m in plan[-7:]]) > MEAT_LIMIT
+        elif (candidate.meat != "") and (
+            sum([m.meat == candidate.meat for m in plan[-7:]]) + candidate.n_meals
+            > MEAT_LIMIT
         ):  # consecutive meat limit
             # print('meat limit')
             pass
         elif (
-            sum([m.complexity for m in plan[-7:]])
+            sum([m.complexity for m in plan[-7 + candidate.n_meals :]])
             + (candidate.n_meals * candidate.complexity)
             > COMPLEXITY_LIMIT
         ):

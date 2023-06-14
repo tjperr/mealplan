@@ -9,6 +9,15 @@ meals_list = [
         "complexity": 3,
     },
     {
+        "name": "mapo tofu",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2,
+    },
+    {
         "name": "carbonara",
         "carb": "pasta",
         "meat": "bacon",

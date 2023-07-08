@@ -1,5 +1,14 @@
 meals_list = [
     {
+        "name": "pistachio pesto",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 3,
+    },
+    {
         "name": "roast",
         "carb": "potato",
         "meat": "chicken",

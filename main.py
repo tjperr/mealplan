@@ -26,8 +26,8 @@ class Meal:
 CARB_LIMIT = 3  # max acceptable same carb in a week
 MEAT_LIMIT = 3  # max acceptable same meat in a week
 COMPLEXITY_LIMIT = 21
-START_DT = datetime(2023, 4, 17, 19, 0, 0)  # The first meal to be planned
-N_MEALS = 30  # number of meals to plan
+START_DT = datetime(2023, 12, 11, 19, 0, 0)  # The first meal to be planned
+N_MEALS = 30 * 3  # number of meals to plan
 
 
 def plan(meals: List[Meal], days: int):

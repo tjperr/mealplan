@@ -270,6 +270,15 @@ meals_list = [
         "complexity": 2,
     },
     {
+        "name": "lamb and roast potatoes",
+        "carb": "potatoes",
+        "meat": "lamb",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3,
+    },
+    {
         "name": "steamed pork and egg",
         "carb": "rice",
         "meat": "pork",
@@ -502,14 +511,5 @@ meals_list = [
         "n_meals": 1,
         "cuisine": "",
         "complexity": 1,
-    },
-        {
-        "name": "pan fried pork chop",
-        "carb": "rice",
-        "meat": "",
-        "freq": 30,
-        "n_meals": 2,
-        "cuisine": "",
-        "complexity": 3,
     },
 ]

@@ -1,5 +1,14 @@
 meals_list = [
     {
+        "name": "soya chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 40,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2,
+    },
+    {
         "name": "fish pie",
         "carb": "potato",
         "meat": "fish",

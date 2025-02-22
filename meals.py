@@ -9,6 +9,16 @@ meals_list = [
         "complexity": 2,
     },
     {
+        "name": "tomato pasta",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 40,
+        "n_meals": 1,
+        "cuisine": "italian",
+        "complexity": 1,
+    },
+
+    {
         "name": "fish pie",
         "carb": "potato",
         "meat": "fish",
@@ -88,6 +98,15 @@ meals_list = [
         "n_meals": 1,
         "cuisine": "",
         "complexity": 1,
+    },
+    {
+        "name": "vietnamese pork",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2,
     },
     {
         "name": "grilled salmon",
@@ -233,15 +252,15 @@ meals_list = [
         "cuisine": "chinese",
         "complexity": 4,
     },
-        {
-        "name": "easy ton noodle soup",
-        "carb": "noodle",
-        "meat": "chicken",
-        "freq": 30,
-        "n_meals": 1,
-        "cuisine": "chinese",
-        "complexity": 2,
-    },
+    #     {
+    #     "name": "easy ton noodle soup",
+    #     "carb": "noodle",
+    #     "meat": "chicken",
+    #     "freq": 30,
+    #     "n_meals": 1,
+    #     "cuisine": "chinese",
+    #     "complexity": 2,
+    # },
     {
         "name": "gyoza",
         "carb": "",
@@ -368,6 +387,15 @@ meals_list = [
         "cuisine": "",
         "complexity": 1,
     },
+    {
+        "name": "panko chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 40,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 4,
+    }
     {
         "name": "lasagne",
         "carb": "pasta",

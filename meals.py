@@ -395,7 +395,7 @@ meals_list = [
         "n_meals": 2,
         "cuisine": "",
         "complexity": 4,
-    }
+    },
     {
         "name": "lasagne",
         "carb": "pasta",

@@ -5,6 +5,7 @@ from main import plan, Meal
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta
 import json
+from jsonschema import validate, ValidationError
 
 # Streamlit app
 st.title("Meal Plan Generator")
@@ -19,6 +20,24 @@ meals_url = st.text_input(
     value="https://raw.githubusercontent.com/tjperr/mealplan/refs/heads/streamlit/meals.json"
 )
 
+# Define the expected JSON schema
+meal_schema = {
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string"},
+            "carb": {"type": "string"},
+            "meat": {"type": "string"},
+            "freq": {"type": "integer"},
+            "n_meals": {"type": "integer"},
+            "cuisine": {"type": "string"},
+            "complexity": {"type": "integer"}
+        },
+        "required": ["name", "carb", "meat", "freq", "n_meals", "cuisine", "complexity"]
+    }
+}
+
 # Add a "Generate" button
 if st.button("Generate Meal Plan"):
     if meals_url:
@@ -26,6 +45,9 @@ if st.button("Generate Meal Plan"):
             response = requests.get(meals_url)
             response.raise_for_status()
             meals_list = response.json()
+
+            # Validate the JSON data against the schema
+            validate(instance=meals_list, schema=meal_schema)
 
             # Convert JSON to Meal objects
             meals = [Meal(**meal) for meal in meals_list]
@@ -58,6 +80,8 @@ if st.button("Generate Meal Plan"):
                 mime="text/calendar",
             )
 
+        except ValidationError as e:
+            st.error(f"JSON validation error: {e.message}")
         except requests.exceptions.RequestException as e:
             st.error(f"Error fetching the meals JSON file: {e}")
         except json.JSONDecodeError:

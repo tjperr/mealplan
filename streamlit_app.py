@@ -11,7 +11,10 @@ from jsonschema import validate, ValidationError
 st.title("Meal Plan Generator")
 
 # User inputs
-start_date = st.date_input("Select the start date:", value=datetime(2025, 4, 18))
+start_datetime = st.datetime_input(
+    "Select the start date and time:",
+    value=datetime(2025, 4, 18, 19, 0)
+)
 number_of_meals = st.number_input("Enter the number of meals to plan:", min_value=1, value=21)
 
 # Input for JSON file URL with default value
@@ -56,8 +59,8 @@ if st.button("Generate Meal Plan"):
             meal_plan = plan(meals, number_of_meals)
 
             # Create calendar
+            date = start_datetime
             cal = Calendar()
-            date = datetime.combine(start_date, datetime.min.time())
 
             for meal in meal_plan:
                 event = Event()

@@ -13,8 +13,11 @@ st.title("Meal Plan Generator")
 start_date = st.date_input("Select the start date:", value=datetime(2025, 4, 18))
 number_of_meals = st.number_input("Enter the number of meals to plan:", min_value=1, value=21)
 
-# Input for JSON file URL
-meals_url = st.text_input("Enter the URL of the meals JSON file:")
+# Input for JSON file URL with default value
+meals_url = st.text_input(
+    "Enter the URL of the meals JSON file:",
+    value="https://raw.githubusercontent.com/tjperr/mealplan/refs/heads/streamlit/meals.json"
+)
 
 if meals_url:
     try:

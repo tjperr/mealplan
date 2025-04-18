@@ -1,0 +1,551 @@
+[
+    {
+        "name": "soya chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 40,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "tomato pasta",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 40,
+        "n_meals": 1,
+        "cuisine": "italian",
+        "complexity": 1
+    },
+    {
+        "name": "fish pie",
+        "carb": "potato",
+        "meat": "fish",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "pistachio pesto",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "roast",
+        "carb": "potato",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "mapo tofu",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "carbonara",
+        "carb": "pasta",
+        "meat": "bacon",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "chicken rice",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "soya chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 3
+    },
+    {
+        "name": "chilli",
+        "carb": "rice",
+        "meat": "beef",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "pizza",
+        "carb": "bread",
+        "meat": "various",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "vietnamese pork",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "grilled salmon",
+        "carb": "rice",
+        "meat": "fish",
+        "freq": 21,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "clay pot rice",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "parmigiana",
+        "carb": "bread",
+        "meat": "",
+        "freq": 60,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 5
+    },
+    {
+        "name": "toad in the hole",
+        "carb": "",
+        "meat": "sausage",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "korean pork",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 3
+    },
+    {
+        "name": "lentil curry",
+        "carb": "rice",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "chicken wings",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "pasta alla norma",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "pesto pasta",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "bolognese",
+        "carb": "pasta",
+        "meat": "beef",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "pasta fagioli",
+        "carb": "pasta",
+        "meat": "bacon",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "baked potato with tuna",
+        "carb": "potato",
+        "meat": "fish",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "pan fried chicken breast",
+        "carb": "potato",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "fish en papilotte",
+        "carb": "potato",
+        "meat": "fish",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "stuffed peppers/tofu",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 4
+    },
+    {
+        "name": "won ton noodle soup",
+        "carb": "noodle",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "chinese",
+        "complexity": 4
+    },
+    {
+        "name": "gyoza",
+        "carb": "",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 4
+    },
+    {
+        "name": "stir fry",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
+        "name": "char siu",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 4
+    },
+    {
+        "name": "pasta soup",
+        "carb": "pasta",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
+        "name": "black bean belly pork",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "lamb and roast potatoes",
+        "carb": "potatoes",
+        "meat": "lamb",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "steamed pork and egg",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "steamed fish",
+        "carb": "rice",
+        "meat": "fish",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "chinese",
+        "complexity": 2
+    },
+    {
+        "name": "oyster sauce chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
+        "name": "deep fried prawns/peppers",
+        "carb": "rice",
+        "meat": "prawns",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "chinese",
+        "complexity": 3
+    },
+    {
+        "name": "grilled pork chops",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
+        "name": "japanese curry",
+        "carb": "rice",
+        "meat": "chicken or veg",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
+        "name": "chicken and potato",
+        "carb": "potato",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
+        "name": "sausage pasta",
+        "carb": "pasta",
+        "meat": "sausage",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "panko chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 40,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 4
+    },
+    {
+        "name": "lasagne",
+        "carb": "pasta",
+        "meat": "beef",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 4
+    },
+    {
+        "name": "canneloni ricotta e spinaci",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "risotto",
+        "carb": "rice",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "salmon pasta bake",
+        "carb": "pasta",
+        "meat": "fish",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "tuna olive pasta",
+        "carb": "pasta",
+        "meat": "fish",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "cacciatore",
+        "carb": "potato",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "bangers and mash",
+        "carb": "potato",
+        "meat": "sausages",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "veggie lasagna",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "casserole",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "burgers",
+        "carb": "bread",
+        "meat": "beef",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "cottage pie",
+        "carb": "potato",
+        "meat": "beef",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "chicken pie",
+        "carb": "",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "cabbage pasta bake",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "white lasange",
+        "carb": "pasta",
+        "meat": "ham",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "",
+        "complexity": 3
+    },
+    {
+        "name": "wraps",
+        "carb": "bread",
+        "meat": "chicken",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 2
+    },
+    {
+        "name": "courgette orzotto",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "courgette pasta",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    },
+    {
+        "name": "puttanesca",
+        "carb": "pasta",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "",
+        "complexity": 1
+    }
+]

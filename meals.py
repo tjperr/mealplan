@@ -9,6 +9,15 @@ meals_list = [
         "complexity": 2,
     },
     {
+        "name": "marmalade chicken",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 40,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 2,
+    },
+    {
         "name": "tomato pasta",
         "carb": "pasta",
         "meat": "",

@@ -12,15 +12,22 @@ from icalendar import Calendar, Event
 from meals import meals_list
 
 
-@dataclass
 class Meal:
-    name: string
-    carb: string
-    meat: string
-    freq: int
-    n_meals: int
-    cuisine: string
-    complexity: int
+    def __init__(self, name, carb, meat, freq, n_meals, cuisine, complexity):
+        # Explicitly define and validate attributes
+        self.name = str(name)
+        self.carb = str(carb)
+        self.meat = str(meat)
+        self.freq = int(freq)
+        self.n_meals = int(n_meals)
+        self.cuisine = str(cuisine)
+        self.complexity = int(complexity)
+
+        # Additional validation (if needed)
+        if self.freq < 0:
+            raise ValueError("Frequency must be non-negative")
+        if self.n_meals < 1:
+            raise ValueError("Number of meals must be at least 1")
 
 
 CARB_LIMIT = 3  # max acceptable same carb in a week

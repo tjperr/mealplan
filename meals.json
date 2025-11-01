@@ -1,5 +1,14 @@
 [
     {
+        "name": "chicken soup",
+        "carb": "rice",
+        "meat": "chicken",
+        "freq": 40,
+        "n_meals": 2,
+        "cuisine": "chinese",
+        "complexity": 1
+    },
+    {
         "name": "soya chicken",
         "carb": "rice",
         "meat": "chicken",
@@ -132,7 +141,7 @@
         "freq": 60,
         "n_meals": 2,
         "cuisine": "",
-        "complexity": 5
+        "complexity": 6
     },
     {
         "name": "toad in the hole",
@@ -250,6 +259,15 @@
         "n_meals": 1,
         "cuisine": "chinese",
         "complexity": 4
+    },
+    {
+        "name": "chinese soup",
+        "carb": "rice",
+        "meat": "pork",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "chinese",
+        "complexity": 2
     },
     {
         "name": "gyoza",
@@ -430,15 +448,6 @@
         "n_meals": 1,
         "cuisine": "",
         "complexity": 1
-    },
-    {
-        "name": "cacciatore",
-        "carb": "potato",
-        "meat": "chicken",
-        "freq": 30,
-        "n_meals": 2,
-        "cuisine": "",
-        "complexity": 2
     },
     {
         "name": "bangers and mash",

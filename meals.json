@@ -556,5 +556,23 @@
         "n_meals": 1,
         "cuisine": "",
         "complexity": 1
+    },
+    {
+        "name": "Satay",
+        "carb": "",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 1,
+        "cuisine": "thai",
+        "complexity": 2
+    },
+    {
+        "name": "Baked Gnocchi",
+        "carb": "gnocchi",
+        "meat": "",
+        "freq": 25,
+        "n_meals": 1,
+        "cuisine": "italian",
+        "complexity": 3
     }
 ]

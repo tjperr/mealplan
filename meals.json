@@ -559,25 +559,25 @@
     },
     {
         "name": "Satay",
-        "carb": "",
-        "meat": "",
+        "carb": "rice",
+        "meat": "chicken",
         "freq": 30,
-        "n_meals": 1,
+        "n_meals": 2,
         "cuisine": "thai",
         "complexity": 2
     },
     {
         "name": "Baked Gnocchi",
-        "carb": "gnocchi",
+        "carb": "pasta",
         "meat": "",
         "freq": 25,
-        "n_meals": 1,
+        "n_meals": 2,
         "cuisine": "italian",
         "complexity": 3
     },
     {
         "name": "Kimchi Jigae",
-        "carb": "",
+        "carb": "rice",
         "meat": "",
         "freq": 30,
         "n_meals": 2,

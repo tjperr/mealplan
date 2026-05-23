@@ -562,7 +562,7 @@
         "carb": "",
         "meat": "",
         "freq": 30,
-        "n_meals": 2,
+        "n_meals": 1,
         "cuisine": "thai",
         "complexity": 2
     },
@@ -571,8 +571,17 @@
         "carb": "gnocchi",
         "meat": "",
         "freq": 25,
-        "n_meals": 2,
+        "n_meals": 1,
         "cuisine": "italian",
         "complexity": 3
+    },
+    {
+        "name": "Kimchi Jigae",
+        "carb": "",
+        "meat": "",
+        "freq": 30,
+        "n_meals": 2,
+        "cuisine": "korean",
+        "complexity": 2
     }
 ]

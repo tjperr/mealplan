@@ -562,7 +562,7 @@
         "carb": "",
         "meat": "",
         "freq": 30,
-        "n_meals": 1,
+        "n_meals": 2,
         "cuisine": "thai",
         "complexity": 2
     },
@@ -571,7 +571,7 @@
         "carb": "gnocchi",
         "meat": "",
         "freq": 25,
-        "n_meals": 1,
+        "n_meals": 2,
         "cuisine": "italian",
         "complexity": 3
     }

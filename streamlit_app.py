@@ -18,7 +18,7 @@ number_of_meals = st.number_input("Enter the number of meals to plan:", min_valu
 # Input for JSON file URL with default value
 meals_url = st.text_input(
     "Enter the URL of the meals JSON file:",
-    value="https://raw.githubusercontent.com/tjperr/mealplan/refs/heads/streamlit/meals.jsonhttps://raw.githubusercontent.com/tjperr/mealplan/refs/heads/main/meals.json"
+    value="https://raw.githubusercontent.com/tjperr/mealplan/refs/heads/main/meals.json"
 )
 
 # Define the expected JSON schema

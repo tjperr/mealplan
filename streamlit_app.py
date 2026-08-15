@@ -11,14 +11,14 @@ from jsonschema import validate, ValidationError
 st.title("Meal Plan Generator")
 
 # User inputs
-start_date = st.date_input("Select the start date for the first meal:", value=datetime(2025, 4, 18).date())
+start_date = st.date_input("Select the start date for the first meal:", value=datetime.now().date())
 meal_time = st.time_input("Select the time for all meals:", value=datetime(2025, 4, 18, 19, 0).time())
 number_of_meals = st.number_input("Enter the number of meals to plan:", min_value=1, value=21)
 
 # Input for JSON file URL with default value
 meals_url = st.text_input(
     "Enter the URL of the meals JSON file:",
-    value="https://raw.githubusercontent.com/tjperr/mealplan/refs/heads/streamlit/meals.json"
+    value="https://raw.githubusercontent.com/tjperr/mealplan/refs/heads/streamlit/meals.jsonhttps://raw.githubusercontent.com/tjperr/mealplan/refs/heads/main/meals.json"
 )
 
 # Define the expected JSON schema
